@@ -9,12 +9,11 @@
     <link rel="icon" href="images/favicon.ico">
     <title>KSA Sint-Baafs Ninove</title>
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  
 </head>
-
-
-<body>
     
+<body>
+
     <!--NAVIGATIEBALK-->
     <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
         <a class="navbar-brand" href="#"><img src="images/KSAlogo.png" width="150"></a>
@@ -69,7 +68,7 @@
     </div>
 
     <!--NIEUWS-->
-    <div>
+    <div id="nieuws">
         <main role="main" class="container">
             <div>
 
@@ -125,7 +124,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Nieuwe leden</h5>
                                 <hr>
-                                <a href="#" class="btn btn-primary">Meer info</a>
+                                <a href="#" class="btn btn-primary">Weergeven</a>
                             </div>
                         </div>
                     </div>
@@ -135,7 +134,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Structuur</h5>
                                 <hr>
-                                <a href="#" class="btn btn-primary">Meer info</a>
+                                <a href="#" class="btn btn-primary">Weergeven</a>
                             </div>
                         </div>
                     </div>
@@ -145,7 +144,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Locatie</h5>
                                 <hr>
-                                <a href="#" class="btn btn-primary">Meer info</a>
+                                <a href="#" class="btn btn-primary">Weergeven</a>
                             </div>
                         </div>
                     </div>
@@ -160,7 +159,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Contact</h5>
                                 <hr>
-                                <a href="#" class="btn btn-primary">Meer info</a>
+                                <a href="#" class="btn btn-primary">Weergeven</a>
                             </div>
                         </div>
                     </div>
@@ -170,7 +169,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Bannen</h5>
                                 <hr>
-                                <a href="#" class="btn btn-primary">Meer info</a>
+                                <a href="#" class="btn btn-primary">Weergeven</a>
                             </div>
                         </div>
                     </div>
@@ -180,7 +179,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Inschrijven</h5>
                                 <hr>
-                                <a href="#" class="btn btn-primary">Meer info</a>
+                                <a href="#" class="btn btn-primary">Weergeven</a>
                             </div>
                         </div>
                     </div>
@@ -194,9 +193,9 @@
         </main>
 
     </div>
-    
-    
-    <div>
+
+    <!--LEIDING-->
+    <div id="leiding">
         <main role="main" class="container">
             <div>
 
@@ -204,12 +203,250 @@
 
                 <h1 class="text-center">Leiding</h1>
                 <h6 class="text-center">Alle huidige leiders per ban</h6>
-
                 <hr>
-                
-                
 
-
+                <h3>Sloebers</h3>
+                <hr>
+                <div class="row">
+                    <div class="col-md-3 d-flex justify-content-center text-center">
+                        <div class="card bg-warning" style="width: 18rem;">
+                            <img class="card-img-top imlg" src="images/arne.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Arne Van der Vreken</h5>
+                                <p class="lead">Ledenverzekering, VZW en uitboller</p>
+                                <hr>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ArneModal">Meer info</button>
+                                
+                                <div class="modal fade" id="ArneModal" tabindex="-1" role="dialog" aria-labelledby="ArneModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="ArneModalLabel">Wie is Arne en wat doet hij?</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body text-left">
+                                            
+                                            <div class="text-center">
+                                                <img class="rounded img-fluid" src="images/arne.jpg" width="300">
+                                            </div>
+                                            
+                                            <hr>
+                                            
+                                            <p><b>Naam:</b> Arne Van der Vreken<br>
+                                            <b>Leeftijd:</b> 21 jaar<br>
+                                            <b>Studies:</b> Biomedische wetenschappen<br>
+                                            <b>Aantal jaar leiding:</b> 5<br>
+                                            <b>Functie binnen de KSA:</b> ledenverzekering, vzw en uitbollen<br>
+                                            <b>Hobbies:</b> KSA en slapen<br>
+                                            <b>Ik lust heel graag:</b> Spaghetti<br>
+                                            <b>Ik lust helemaal geen:</b> Kaassssss<br>
+                                            <b>Lievelingsdier:</b> Bok<br>
+                                            <b>Als ik een gave kon kiezen, koos ik voor:</b> Vliegen<br>
+                                            <b>Favoriete jeugdserie:</b> Spring natuurlijk<br>
+                                            <b>Mijn grootste held:</b> Sammy Masschelein</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-center text-center">
+                        <div class="card bg-warning" style="width: 18rem;">
+                            <img class="card-img-top" src="images/hannes.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Hannes Torrekens</h5>
+                                <p class="lead">Materiaalman, planner & jeugdraadman</p>
+                                <hr>
+                                <a href="#" class="btn btn-primary">Meer info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-center text-center">
+                        <div class="card bg-warning" style="width: 18rem;">
+                            <img class="card-img-top" src="images/matthias.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Matthias Peeters</h5>
+                                <p class="lead">Oversteekman</p>
+                                <hr>
+                                <a href="#" class="btn btn-primary">Meer info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                
+                <h3>Leeuwkes</h3>
+                <hr>
+                <div class="row">
+                    <div class="col-md-3 d-flex justify-content-center text-center">
+                        <div class="card bg-warning" style="width: 18rem;">
+                            <img class="card-img-top" src="images/bram.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Bram Van der Taelen</h5>
+                                <p class="lead">Materiaalman, planner & jeugdraadman</p>
+                                <hr>
+                                <a href="#" class="btn btn-primary">Meer info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-center text-center">
+                        <div class="card bg-warning" style="width: 18rem;">
+                            <img class="card-img-top" src="images/stijn.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Stijn Van Oudenhove</h5>
+                                <p class="lead">Materiaalman, planner & jeugdraadman</p>
+                                <hr>
+                                <a href="#" class="btn btn-primary">Meer info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-center text-center">
+                        <div class="card bg-warning" style="width: 18rem;">
+                            <img class="card-img-top" src="images/janne.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Janne Billiau</h5>
+                                <p class="lead">Materiaalman, planner & jeugdraadman</p>
+                                <hr>
+                                <a href="#" class="btn btn-primary">Meer info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-center text-center">
+                        <div class="card bg-warning" style="width: 18rem;">
+                            <img class="card-img-top" src="images/stef.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Stef Van den Haute</h5>
+                                <p class="lead">Materiaalman, planner & jeugdraadman</p>
+                                <hr>
+                                <a href="#" class="btn btn-primary">Meer info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <br>
+                <h3>Jongknapen</h3>
+                <hr>
+                <div class="row">
+                    <div class="col-md-3 d-flex justify-content-center text-center">
+                        <div class="card bg-warning" style="width: 18rem;">
+                            <img class="card-img-top" src="images/matthijs.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Matthijs Neven</h5>
+                                <p class="lead">Materiaalman, planner & jeugdraadman</p>
+                                <hr>
+                                <a href="#" class="btn btn-primary">Meer info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-center text-center">
+                        <div class="card bg-warning" style="width: 18rem;">
+                            <img class="card-img-top" src="images/sammy.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Sammy Masschelein</h5>
+                                <p class="lead">Materiaalman, planner & jeugdraadman</p>
+                                <hr>
+                                <a href="#" class="btn btn-primary">Meer info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-center text-center">
+                        <div class="card bg-warning" style="width: 18rem;">
+                            <img class="card-img-top" src="images/Emiel.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Emiel Van Belle</h5>
+                                <p class="lead">Materiaalman, planner & jeugdraadman</p>
+                                <hr>
+                                <a href="#" class="btn btn-primary">Meer info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-center text-center">
+                        <div class="card bg-warning" style="width: 18rem;">
+                            <img class="card-img-top" src="images/jens.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Jens Remue</h5>
+                                <hr>
+                                <a href="#" class="btn btn-primary">Meer info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <br>
+                <h3>Knapen</h3>
+                <hr>
+                <div class="row">
+                    <div class="col-md-3 d-flex justify-content-center text-center">
+                        <div class="card bg-warning" style="width: 18rem;">
+                            <img class="card-img-top" src="images/bono.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Bono De Geest</h5>
+                                <hr>
+                                <a href="#" class="btn btn-primary">Meer info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-center text-center">
+                        <div class="card bg-warning" style="width: 18rem;">
+                            <img class="card-img-top" src="images/pieter.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Pieter Samoy</h5>
+                                <hr>
+                                <a href="#" class="btn btn-primary">Meer info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-center text-center">
+                        <div class="card bg-warning" style="width: 18rem;">
+                            <img class="card-img-top" src="images/jarne.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Jarne Van de Velde</h5>
+                                <hr>
+                                <a href="#" class="btn btn-primary">Meer info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <br>
+                <h3>Jonghernieuwers</h3>
+                <hr>
+                <div class="row">
+                    <div class="col-md-3 d-flex justify-content-center text-center">
+                        <div class="card bg-warning" style="width: 18rem;">
+                            <img class="card-img-top" src="images/arnt.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Arnt De Durpel</h5>
+                                <hr>
+                                <a href="#" class="btn btn-primary">Meer info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <br>
+                <h3>Hernieuwers</h3>
+                <hr>
+                <div class="row">
+                    <div class="col-md-3 d-flex justify-content-center text-center">
+                        <div class="card bg-warning" style="width: 18rem;">
+                            <img class="card-img-top" src="images/nick.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Nick Van der Taelen</h5>
+                                <hr>
+                                <a href="#" class="btn btn-primary">Meer info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
     </div>
