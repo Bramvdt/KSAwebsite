@@ -41,12 +41,75 @@
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="btn btn-primary" href="#inschrijven">Inschrijven</a>
+                    <a class="btn btn-primary" href="#inschrijven" data-toggle="modal" data-target="#inschrijvingModal">Inschrijven</a>
                 </li>
             </ul>
         </div>
     </nav>
 
+    
+    <div class="modal fade" id="inschrijvingModal" tabindex="-1" role="dialog" aria-labelledby="inschrijvingModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="inschrijvingModalLabel">Inschrijvingformulier</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body text-left">
+                    <p>Leuk! U heeft besloten uw zoon in te schrijven! Echter hebben wij nog enkele gegevens nodig om deze inschrijving te vervolledigen.<br><b>Na het invullen van dit formulier en de overschrijving van het lidgeld naar <u>BE71 4340 0629 2169</u> is uw zoon volwaardig ingeschreven, is hij verzekerd en kan hij wekelijks deelnemen aan de rondes!</b></p>   
+                    
+                        <form method="post" name="contact" action="nog_niet_geschreven_-Bram">
+                            
+                            <div class="form-group">
+                                <label class="mb-0">Voornaam lid</label>
+                                <input name="voornaam" type="text" class="form-control" placeholder="Voornaam">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="mb-0">Achternaam lid</label>
+                                <input name="achternaam" type="text" class="form-control" placeholder="Achternaam">
+                            </div>
+                                
+                            <div class="form-group">
+                                <label class="mb-0">Geboortedatum lid</label>
+                                <input name="geboortedatum" type="text" class="form-control" placeholder="dd/mm/jjjj">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="mb-0">Adres</label>
+                                <input name="adres" type="text" class="form-control" placeholder="Adres">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="mb-0">Telefoonnummer ouder(s)</label>
+                                <input name="gsmnummerOuder" type="text" class="form-control" placeholder="Telefoonnummer">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="mb-0">E-mailadres ouder</label>
+                                <input name="emailouder" type="text" class="form-control" placeholder="E-mailadres">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="mb-0">Extre mededeling</label>
+                                <input name="Extra mededeling" type="text" class="form-control" rows="3">
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Inschrijven</button>
+                            
+                        </form>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
     <!--BANNER-->
     <section style="margin-top:85px" class="bg-warning">
         <div class="container">
@@ -76,25 +139,25 @@
                 <hr>
 
                 <h3>Gebruik Trooper</h3>
-                <p>xx/xx/xxx</p>
+                <p>xx/xx/xxxx</p>
                 <p class="lead">Beste leden, ouders en sympathisanten. Sinds kort maakt KSA Sint-Baafs Ninove gebruik van trooper. Wat is dit juist? Van elke online bestelling die via trooper gebeurd krijgen wij een bepaald percentage. Voor jullie komt er geen extra kost bij maar zo kunnen wij verder sparen voor onze bouw. Om het gemakkelijk terug te vinden klikt u <a href="https://www.trooper.be/ksasintbaafsninove">hier</a>!</p>
 
                 <hr>
 
                 <h3>De winnaar van het lidgeld</h3>
-                <p>xx/xx/xxx</p>
+                <p>xx/xx/xxxx</p>
                 <p class="lead">Met trots kondigen wij aan dat Christelle Van der Borght de wedstrijd gewonnen heeft. Een dikke proficiat van het hele leidingsteam. Iedereen bedankt om het masaal te delen en zo de wedstrijd tot een succes te leiden</p>
 
                 <hr>
 
                 <h3>Groot nieuws</h3>
-                <p>xx/xx/xxx</p>
+                <p>xx/xx/xxxx</p>
                 <p class="lead">De nieuwe website staat online!</p>
 
                 <hr>
 
                 <h3>Schakel</h3>
-                <p>xx/xx/xxx</p>
+                <p>xx/xx/xxxx</p>
                 <p class="lead">De nieuwe schakel is onderweg en zal er sneller zijn dan het licht!</p>
             </div>
         </main>
@@ -1141,7 +1204,6 @@
     <section class="bg-warning" id="contact">
         <main role="main" class="container">
             <div>
-
                 <br>
 
                 <h1 class="text-center">Contact</h1>
@@ -1154,26 +1216,26 @@
                     <div class="col-md-6">
                         <p><small>Je kan de leiding contacteren door een mail te sturen e-mailadres <u>leiding@ksaninove.be</u> of het onderstaand contactformulier invullen</small></p>
                         
-                        <form method="post" name="contact" action="contact.php">
+                                            <form method="post" name="contact" action="nog niet geschreven -Bram">
                             
-                            <div class="form-group">
-                                <label class="mb-0">Uw naam</label>
-                                <input name="naam" type="text" class="form-control" placeholder="Uw naam">
-                            </div>
+                        <div class="form-group">
+                             <label class="mb-0">Uw naam</label>
+                            <input name="naam" type="text" class="form-control" placeholder="Uw naam">
+                        </div>
                             
-                            <div class="form-group">
-                                <label class="mb-0">E-mail adres</label>
-                                <input name="email" type="text" class="form-control" placeholder="Uw e-mailadres">
-                            </div>
+                        <div class="form-group">
+                            <label class="mb-0">E-mail adres</label>
+                            <input name="email" type="text" class="form-control" placeholder="Uw e-mailadres">
+                        </div>
                                 
-                            <div class="form-group">
-                                <label class="mb-0">Uw bericht</label>
-                                <textarea name="bericht" class="form-control" rows="3"></textarea>
-                            </div>
+                        <div class="form-group">
+                            <label class="mb-0">Uw bericht</label>
+                            <textarea name="bericht" class="form-control" rows="3"></textarea>
+                        </div>
                             
-                            <button type="submit" class="btn btn-primary">Verstuur</button>
+                        <button type="submit" class="btn btn-primary">Verstuur</button>
                             
-                        </form>
+                    </form>
                     </div>
                     <div class="col-md-3"></div>
                 </div>
