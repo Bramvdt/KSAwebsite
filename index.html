@@ -9,9 +9,9 @@
     <link rel="icon" href="images/favicon.ico">
     <title>KSA Sint-Baafs Ninove</title>
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
-    
+
 <body>
 
     <!--NAVIGATIEBALK-->
@@ -47,12 +47,8 @@
         </div>
     </nav>
 
-    <br>
-    <br>
-    <br>
-
     <!--BANNER-->
-    <div class="bg-warning">
+    <section style="margin-top:85px" class="bg-warning">
         <div class="container">
             <div class="row">
                 <div class="col-2">
@@ -65,10 +61,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!--NIEUWS-->
-    <div id="nieuws">
+    <section id="nieuws">
         <main role="main" class="container">
             <div>
 
@@ -102,100 +98,199 @@
                 <p class="lead">De nieuwe schakel is onderweg en zal er sneller zijn dan het licht!</p>
             </div>
         </main>
-    </div>
+    </section>
+    <br>
 
     <!--INFORMATIE-->
-    <div class="bg-warning" id="info">
+    <section class="bg-warning" id="info">
         <main role="main" class="container">
+            <br>
 
-            <div>
+            <h1 class="text-center">Informatie</h1>
+            <h6 class="text-center">Meer weten over KSA Sint-Baafs Ninove? Hier vind je alle informatie!</h6>
 
-                <br>
+            <hr>
 
-                <h1 class="text-center">Informatie</h1>
-                <h6 class="text-center">Meer weten over KSA Sint-Baafs Ninove? Hier vind je alle informatie!</h6>
+            <div class="container">
 
-                <hr>
+                <div id="accordion">
 
-                <div class="row">
-                    <div class="col-md-4 d-flex justify-content-center text-center">
-                        <div class="card" style="width: 18rem;">
-                            <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+                    <div class="card">
+                        <div class="card-header text-center" id="nieuweLeden">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#nieuweLedenTekst" aria-expanded="false" aria-controls="nieuweLedenTekst">
+                                    <h4 class="mb-0">Nieuwe leden</h4>
+                                </button>
+                        </div>
+
+                        <div id="nieuweLedenTekst" class="collapse" aria-labelledby="nieuweLeden" data-parent="#accordion">
                             <div class="card-body">
-                                <h5 class="card-title">Nieuwe leden</h5>
-                                <hr>
-                                <a href="#" class="btn btn-primary">Weergeven</a>
+                                <p>Omdat het als nieuw lid niet vanzelfsprekend is om meteen op de hoogte te zijn van de gebruikte termen en de gewoontes binnen onze KSA-groep geven we even een kort overzicht:</p>
+                                <ul>
+                                    <li>We komen iedere zondag samen op het college, tenzij anders vermeld, van 14 tot 17 uur. Dit samenzijn heet een ronde.</li>
+                                    <br>
+                                    <li>Een ronde begint normaal gezien met een openingsformatie. Dan staat iedereen in een kring, 'een ronde'.</li>
+                                    <br>
+                                    <li>Bij de openingsformatie wordt kort meegedeeld wat er allemaal op het programma staat. We zingen ook nog even het 'Ja-knapenlied', een oude traditie, en gaan vervolgens van start met de activiteit.</li>
+                                    <br>
+                                    <li>In de vakantieperiodes tijdens het schooljaar is er normaal geen ronde, tenzij anders vermeld in het programma.</li>
+                                    <br>
+                                    <li>We gaan ook ieder jaar op weekend. Voor de sloebers, leeuwkes en jongknapen wordt er een heem (een 'kamphuis') voorzien, bij de knapen en (jong)hernieuwers gaat het er iets avontuurlijker aan toe.</li>
+                                    <br>
+                                    <li>Ook de jaarlijkse jeugddag en een daguitstap mogen niet ontbreken. De jeugddag wordt georganiseerd door de jeugdraad, waarin iedere jeugdbeweging vertegenwoordigd wordt door hun afgevaardigden. Zij zorgen die dag voor tal van amusante spelletjes en animatie. (zie programma).</li>
+                                    <br>
+                                    <li>De daguitstap leidt ons eens naar een speciale locatie. De trein op richting zee of naar de zoo.. Alles is mogelijk!</li>
+                                    <br>
+                                    <li>Iedere zomer gaan we op kamp. De sloebers, de leeuwkes en jongknapen slapen net zoals op het weekend, ineen heem (als de mogelijkheid er is). De knapen en(jong)hernieuwers slapen in tenten!</li>
+                                    <br>
+                                    <li>Het kamp duurt vijf dagen voor de sloebers, zes voor de leeuwkes en voor de andere groepen tien. Op kamp doen we een hele boel toffe activiteiten: bosspelen, weidespelen, waterspelen, zwemmen, ravotten, etc. Als afsluiter maken we een reusachtig kampvuur.</li>
+                                </ul>
+
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 d-flex justify-content-center text-center">
-                        <div class="card" style="width: 18rem;">
-                            <!--<img class="card-img-top" src="images/facebooklogo.png"> -->
+
+
+                    <div class="card">
+                        <div class="card-header text-center" id="structuur">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#structuurTekst" aria-expanded="false" aria-controls="structuurTekst">
+                                    <h4 class="mb-0">Structuur</h4>
+                                </button>
+                        </div>
+
+                        <div id="structuurTekst" class="collapse" aria-labelledby="structuur" data-parent="#accordion">
                             <div class="card-body">
-                                <h5 class="card-title">Structuur</h5>
-                                <hr>
-                                <a href="#" class="btn btn-primary">Weergeven</a>
+                                <div><b>Bondsleiders: Bono en Pieter</b><br> De bondsleiding is de eindverantwoordelijke van het algemene reilen en zeilen van onze jeugdbeweging. Zij zijn verantwoordelijk voor de organisatie van de evenementen, controleren de leiding en houden alles nauwlettend in het oog. Je mag ze dus de grote bazen noemen.
+                                </div>
+                                <br>
+                                <div>
+                                    <b>Proost: Priester Alexander</b><br> Naast de bondsleider is er de bondsproost die voor meerdere generaties een oogje in het zeil houdt. Vroeger was dat E.H. Jos Jacobs die enkele jaren geleden overleed. Ook de nieuwe proost heeft banden met het Sint-Aloysiuscollege. Priester Alexander Vandaele geeft er immers godsdienst.
+                                </div>
+                                <br>
+                                <div>
+                                    <b>Penningmeester: Matthijs</b><br> Het hele financiële aspect van onze werking neemt Matthijs voor zijn rekening. Hij zorgt ervoor dat de leiding geen domme uitgaven doet, alle facturen op tijd betaald worden en we niet over ons budget gaan.
+                                    <br> Voor al uw financieel advies slechts 1 adres: Matthijs Neven.
+                                </div>
+                                <br>
+                                <div>
+                                    <b>Schakelmannen: Bram, Sammy en Emiel</b><br> Bram heeft afgelopen jaar de schakel zo goed gedaan dat de hele leidingsploeg hem heeft gesmeekt om de taak dit jaar opnieuw te vervullen. Bram wordt dit jaar bijgestaan door Sammy, ook wel de Louis Paul Boon van Ninove genoemd. Beide nemen ze talenknobbel Emiel onder hun vleugels, die dit jaar het trio vervolledigd en zich volledig wilt smijten in het schrijven van de schakel.
+                                </div>
+                                <br>
+                                <div>
+                                    <b>Materiaalmannen: Hannes, Barend en Sammy</b><br> Deze drie heren zijn verantwoordelijk voor het materiaal van onze jeugdbeweging. Onderhoud, aankoop en inventariseren behoort tot hun takenpakket. Orde en netheid zijn synoniemen voor dit trio. Iets niet op zijn plaats gelegd? Dan krijg je te maken met Hannes, Barend of Sammy!
+                                </div>
+                                <br>
+                                <div>
+                                    <b>Uniformenman: Stijn</b><br> Een uniform bestellen? Slechts 1 adres: Stijn, ook wel de Jani Kazaltzis van Ninove genoemd. Hij zal elke week naar de KSA-shop in Gent gaan om de stock aan te vullen en iedereen te voorzien van het mooiste uniform
+                                </div>
+                                <br>
+                                <div>
+                                    <b>Site man: Pieter</b><br> "Vaarwel vrije tijd", waren zijn laatste woorden voor hij begon aan het herschrijven van de site. Een klein projectje. Kleine fouten die in de site zitten zijn dan ook volledig zijn fout, maar wij zijn hem wel enorm dankbaar voor alle tijd en moeite! Dank u Pieter, de site mag er zeker wezen!
+                                </div>
+                                <br>
+                                <div>
+                                    <b>Ledenverzekering: Arne en Janne</b><br> Alles wat te maken heeft met het inschrijven of verzekeren van uw zoon is de verantwoordelijkheid van Arne en zijn jongere broer Janne. Arne neemt dit jaar Janne onder zijn vleugels zodat hij daarna het goede werk van zijn grote broer kan verder zetten.
+                                    <br> Ook de verzekeringen op evenementen of van de lokalen/materiaal behoort tot hun takenpakket.
+                                </div>
+                                <br>
+                                <div>
+                                    <b>Locatiemannen: Arnt en Nick</b><br> Een niet te onderschatten functie, met grote verantwoordelijkheden. Het zoeken naar de ideale kamplocatie of weekendplaats. Deze 2 goede vrienden verkennen elk hoekje van België en enkel de beste kampplaatsen geraken door de strenge selectie van Arnt en Nick.
+                                </div>
+                                <br>
+                                <div>
+                                    <b>Verslagman: Stijn</b><br> Applaus voor ijverige Stijn. Naast de taak van uniformenman begint hij aan zijn 2de jaar als verslagman. Zijn taak bestaat uit het nemen van notities tijdens de vergaderingen. Geen enkel detail ontglipt Stijn
+                                </div>
+                                <br>
+                                <div>
+                                    <b>Jeugdraadmannen: Matthijs, Hannes, Nick, Pieter</b><br>
+                                    <i>"KSA MAKES NINOVE GREAT AGAIN"</i>. Onder dit motto vertrekken deze 4 zware mannen naar de jeugdraad en laten zij de stem van de KSA horen.
+                                </div>
+                                <br>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 d-flex justify-content-center text-center">
-                        <div class="card" style="width: 18rem;">
-                            <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+
+                    <div class="card">
+                        <div class="card-header text-center" id="locatie">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#locatieTekst" aria-expanded="false" aria-controls="locatieTekst">
+                                    <h4 class="mb-0">Locatie</h4>
+                                </button>
+                        </div>
+
+                        <div id="locatieTekst" class="collapse" aria-labelledby="locatie" data-parent="#accordion">
                             <div class="card-body">
-                                <h5 class="card-title">Locatie</h5>
-                                <hr>
-                                <a href="#" class="btn btn-primary">Weergeven</a>
+                                <div>
+                                    Onze lokale bevinden zich in het Sint-Aloysiuscollege te Ninove (Weggevoerdenstraat 55, 9400 Ninove). Deze lokalen zijn <b>niet te huur</b>.<br> Post bestemd voor KSA Sint-Baafs Ninove stuur je best naar een van de bondsleiders:
+                                    <ul>
+                                        <li>Pieter Samoy: Roslaer 28, 9400 Ninove</li>
+                                        <li>Bono De Geest: Peperstraat 47, 9506 Zandebergen</li>
+                                    </ul>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3996.3835430401605!2d4.018999655038497!3d50.84032350871392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3bb47ea398b75%3A0xd0f3bd927eabdb4f!2sWeggevoerdenstraat+55%2C+9400+Ninove!5e0!3m2!1snl!2sbe!4v1501667071972"></iframe>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                     </div>
+
+                    <div class="card">
+                        <div class="card-header text-center" id="bannen">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#bannenTekst" aria-expanded="false" aria-controls="bannenTekst">
+                                    <h4 class="mb-0">Bannen</h4>
+                                </button>
+                        </div>
+
+                        <div id="bannenTekst" class="collapse" aria-labelledby="bannen" data-parent="#accordion">
+                            <div class="card-body">
+                                <table style="margin-top:-120px" class="table table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <td><b>Sloebers</b> <br> <img src="images/sloebers.jpg"></td>
+                                            <td><b>6 tot 8 jaar / 1e en 2de leerjaar</b><br> De jongste leden van onze beweging noemen we de Sloebers. KSA betekent voor hen spelen, spelen en nog eens spelen. Ze kunnen zich op elke activiteit verwonderen over de nieuwe ervaringen die ze opdoen. Hun levendige fantasie zorgt ervoor dat ze op reis kunnen naar eender waar, met eender wie, om eender welk probleem op te lossen. Leiders zijn tijdens deze reizen hun troost en toeverlaat.
+                                            </td>
+                                        </tr>
+                                        <br>
+                                        <tr>
+                                            <td><b>Leeuwkes</b><br> <img src="images/leeuwkes.jpg"></td>
+                                            <td><b>8 tot 10 jaar / 3e en 4de leerjaar</b><br> De leeuwkes zitten halfweg hun carrière op de lagere school en zijn niet langer de jongste leden van KSA. Het is een enthousiaste bende die geregeld al echt samen kan spelen. De spelletjes worden al wat complexer. Lang stilzitten is niet aan hen besteed, in onze jeugdbeweging kunnen ze bewegen en vanalles uitproberen wat thuis niet kan.</td>
+                                        </tr>
+                                        <br>
+                                        <tr>
+                                            <td><b>Jongknapen</b> <br> <img src="images/jongknapen.jpg"></td>
+                                            <td><b>10 tot 12 jaar / 5e en 6de leerjaar</b><br> De jongknapen vinden in KSA vooral actie en spanning. Ze mogen zelf al eens het initiatief nemen om de activiteiten wat op te vullen, al houdt de leiding steeds een oogje in het zeil. Ze zijn de waaghalzen van KSA, die graag in competitie treden met elkaar. In de jeugdbeweging mogen ze echt bij de groep te horen en nieuwe vrienden leren kennen.</td>
+                                        </tr>
+                                        <br>
+                                        <tr>
+                                            <td><b>Knapen</b> <br> <img src="images/knapen.jpg"></td>
+                                            <td><b>12 tot 14 jaar/ 1e en 2e middelbaar</b><br> De leden van 12 tot 14 jaar heten in KSA de knapen. Ze zijn stilaan 'groot' geworden en mogen de echte wereld gaan verkennen. Ze gebruiken de vrijheid die ze genieten als pubers om op avontuur te trekken. Ook in KSA kunnen ze met vanalles gaan experimenteren. Deze groep avonturiers is al redelijk zelfstandig geworden in al wat ze doen. Aangezien knapen volop zichzelf aan het ontdekken zijn, leidt dit geregeld eens tot kleine crisissen waar de leiders als moderator nodig is. De activiteiten worden al heel wat avontuurlijker en de vriendengroep nog wat hechter.
+                                            </td>
+                                        </tr>
+                                        <br>
+                                        <tr>
+                                            <td><b>Jonghernieuwers</b> <br> <img src="images/jonghernieuwers.jpg"></td>
+                                            <td><b>14 tot 16 jaar / 3e en 4e middelbaar</b><br> KSA wordt voor de jonghernieuwers een ontmoetingsplaats met vrienden. Ze zullen soms willen stilzitten om wat gezellig te babbelen, maar trekken er even graag eens samen op uit om de meest uiteenlopende stunten te beleven. De leiders zetten activiteiten op die een uitdaging vormen voor de leden en hen uitnodigen om samen te werken om hun doel te bereiken. Hierbij wordt al heel wat verantwoordelijkheid doorgespeeld naar de leden zelf en mag de groep geregeld zelf één en ander organiseren. In KSA mogen ze zichzelf zijn, los van de doordeweekse verplichtingen en verwachtingen.</td>
+                                        </tr>
+                                        <br>
+                                        <tr>
+                                            <td><b>Hernieuwers</b> <br> <img src="images/hernieuwers.jpg"></td>
+                                            <td><b>16 jaar + / 5e en 6e middelbaar</b><br> Eens men 16 is geworden in KSA, komt men bij de hernieuwers terecht. Voor hen worden nog heel wat activiteiten georganiseerd, maar ze leren ook de kneepjes van het leiderschap kennen. Ze zijn actief bezig een eigen identiteit op te bouwen en daarin kan KSA een belangrijke rol spelen. Ze nemen een zeker engagement op binnen de groep en hebben inspraak in de richting die het uit moet. Ze maken plannen en keuzes voor de toekomst en denken na over de maatschappij en hoe die er zou moeten uitzien. Als jongeren kiezen ze ervoor zelf de handen uit de mouwen te steken en een steen(tje) bij te dragen. Daarnaast draait het natuurlijk ook vaak om gewoon in groep plezier maken en je eens uitleven, zonder je al te veel te moeten aantrekken van de eisen van de 'volwassen wereld' (het blijft namelijk nog altijd jeugdbeweging)..</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
-
-                <br>
-
-                <div class="row">
-                    <div class="col-md-4 d-flex justify-content-center text-center">
-                        <div class="card" style="width: 18rem;">
-                            <!--<img class="card-img-top" src="..." alt="Card image cap">-->
-                            <div class="card-body">
-                                <h5 class="card-title">Contact</h5>
-                                <hr>
-                                <a href="#" class="btn btn-primary">Weergeven</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 d-flex justify-content-center text-center">
-                        <div class="card" style="width: 18rem;">
-                            <!--<img class="card-img-top" src="..." alt="Card image cap">-->
-                            <div class="card-body">
-                                <h5 class="card-title">Bannen</h5>
-                                <hr>
-                                <a href="#" class="btn btn-primary">Weergeven</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 d-flex justify-content-center text-center">
-                        <div class="card" style="width: 18rem;">
-                            <!--<img class="card-img-top" src="..." alt="Card image cap">-->
-                            <div class="card-body">
-                                <h5 class="card-title">Inschrijven</h5>
-                                <hr>
-                                <a href="#" class="btn btn-primary">Weergeven</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
-
             <br>
             <br>
-
         </main>
-
-    </div>
+    </section>
 
     <!--LEIDING-->
-    <div id="leiding">
+    <section id="leiding">
         <main role="main" class="container">
             <div>
 
@@ -216,45 +311,45 @@
                                 <p class="lead">Ledenverzekering, VZW</p>
                                 <hr>
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ArneModal">Meer info</button>
-                                
+
                                 <div class="modal fade" id="ArneModal" tabindex="-1" role="dialog" aria-labelledby="ArneModalLabel" aria-hidden="true">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="ArneModalLabel">Wie is Arne?</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="ArneModalLabel">Wie is Arne?</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                             </button>
-                                        </div>
-                                        <div class="modal-body text-left">
-                                            
-                                            <div class="text-center">
-                                                <img class="rounded img-fluid" src="images/arne.jpg" width="300">
                                             </div>
-                                            <hr>
-                                            <p><b>Naam:</b> Arne Van der Vreken<br>
-                                            <b>Leeftijd:</b> 21 jaar<br>
-                                            <b>Studies:</b> Biomedische wetenschappen<br>
-                                            <b>Aantal jaar leiding:</b> 5<br>
-                                            <b>Functie binnen de KSA:</b> ledenverzekering, vzw en uitbollen<br>
-                                            <b>Hobbies:</b> KSA en slapen<br>
-                                            <b>Ik lust heel graag:</b> Spaghetti<br>
-                                            <b>Ik lust helemaal geen:</b> Kaassssss<br>
-                                            <b>Lievelingsdier:</b> Bok<br>
-                                            <b>Als ik een gave kon kiezen, koos ik voor:</b> Vliegen<br>
-                                            <b>Favoriete jeugdserie:</b> Spring natuurlijk<br>
-                                            <b>Mijn grootste held:</b> Sammy Masschelein</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
-                                        </div>
+                                            <div class="modal-body text-left">
+
+                                                <div class="text-center">
+                                                    <img class="rounded img-fluid" src="images/arne.jpg" width="300">
+                                                </div>
+                                                <hr>
+                                                <p><b>Naam:</b> Arne Van der Vreken<br>
+                                                    <b>Leeftijd:</b> 21 jaar<br>
+                                                    <b>Studies:</b> Biomedische wetenschappen<br>
+                                                    <b>Aantal jaar leiding:</b> 5<br>
+                                                    <b>Functie binnen de KSA:</b> ledenverzekering, vzw en uitbollen<br>
+                                                    <b>Hobbies:</b> KSA en slapen<br>
+                                                    <b>Ik lust heel graag:</b> Spaghetti<br>
+                                                    <b>Ik lust helemaal geen:</b> Kaassssss<br>
+                                                    <b>Lievelingsdier:</b> Bok<br>
+                                                    <b>Als ik een gave kon kiezen, koos ik voor:</b> Vliegen<br>
+                                                    <b>Favoriete jeugdserie:</b> Spring natuurlijk<br>
+                                                    <b>Mijn grootste held:</b> Sammy Masschelein</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col-md-4 d-flex justify-content-center text-center">
                         <div class="card bg-warning" style="width: 18rem;">
                             <img class="card-img-top" src="images/hannes.jpg" alt="Card image cap">
@@ -263,45 +358,45 @@
                                 <p class="lead">Materiaalman, planner & jeugdraadman</p>
                                 <hr>
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#HannesModal">Meer info</button>
-                                
+
                                 <div class="modal fade" id="HannesModal" tabindex="-1" role="dialog" aria-labelledby="HannesModalLabel" aria-hidden="true">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="HannesModalLabel">Wie is Hannes?</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="HannesModalLabel">Wie is Hannes?</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                             </button>
-                                        </div>
-                                        <div class="modal-body text-left">
-                                            
-                                            <div class="text-center">
-                                                <img class="rounded img-fluid" src="images/hannes.jpg" width="300">
-                                            </div>       
-                                            <hr>                                        
-                                            <p><b>Naam:</b> Hannes Torrekens<br>
-                                            <b>Leeftijd:</b> 18 jaar<br>
-                                            <b>Studies:</b> Architectuur<br>
-                                            <b>Aantal jaar leiding:</b> 3<br>
-                                            <b>Functie binnen de KSA:</b> Materiaalman, planner, jeugdraadman<br>
-                                            <b>Hobbies:</b> Bono pesten<br>
-                                            <b>Ik lust heel graag:</b> Kip met appelmoes<br>
-                                            <b>Ik lust helemaal geen:</b> Gras<br>
-                                            <b>Lievelingsdier:</b> Stermol<br>
-                                            <b>Als ik een gave kon kiezen, koos ik voor:</b> Meisjes versieren<br>
-                                            <b>Favoriete jeugdserie:</b> W817<br>
-                                            <b>Mijn grootste held:</b> Amber Boue</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
-                                        </div>
+                                            </div>
+                                            <div class="modal-body text-left">
+
+                                                <div class="text-center">
+                                                    <img class="rounded img-fluid" src="images/hannes.jpg" width="300">
+                                                </div>
+                                                <hr>
+                                                <p><b>Naam:</b> Hannes Torrekens<br>
+                                                    <b>Leeftijd:</b> 18 jaar<br>
+                                                    <b>Studies:</b> Architectuur<br>
+                                                    <b>Aantal jaar leiding:</b> 3<br>
+                                                    <b>Functie binnen de KSA:</b> Materiaalman, planner, jeugdraadman<br>
+                                                    <b>Hobbies:</b> Bono pesten<br>
+                                                    <b>Ik lust heel graag:</b> Kip met appelmoes<br>
+                                                    <b>Ik lust helemaal geen:</b> Gras<br>
+                                                    <b>Lievelingsdier:</b> Stermol<br>
+                                                    <b>Als ik een gave kon kiezen, koos ik voor:</b> Meisjes versieren<br>
+                                                    <b>Favoriete jeugdserie:</b> W817<br>
+                                                    <b>Mijn grootste held:</b> Amber Boue</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col-md-4 d-flex justify-content-center text-center">
                         <div class="card bg-warning" style="width: 18rem;">
                             <img class="card-img-top" src="images/matthias.jpg" alt="Card image cap">
@@ -310,38 +405,38 @@
                                 <p class="lead">Oversteekman</p>
                                 <hr>
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#MatthiasModal">Meer info</button>
-                                
+
                                 <div class="modal fade" id="MatthiasModal" tabindex="-1" role="dialog" aria-labelledby="MatthiasModalLabel" aria-hidden="true">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="MatthiasModalLabel">Wie is Matthias?</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="MatthiasModalLabel">Wie is Matthias?</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                             </button>
-                                        </div>
-                                        <div class="modal-body text-left">
-                                            
-                                            <div class="text-center">
-                                                <img class="rounded img-fluid" src="images/matthias.jpg" width="300">
-                                            </div>                                          
-                                            <hr>                                            
-                                            <p><b>Naam:</b> Matthias Peeters<br>
-                                            <b>Leeftijd:</b> 18 jaar<br>
-                                            <b>Studies:</b> Moderne Talen-wetenschappen<br>
-                                            <b>Aantal jaar leiding:</b> 1<br>
-                                            <b>Functie binnen de KSA:</b> Oversteekman<br>
-                                            <b>Hobbies:</b> KSA, tennis en uitgaan<br>
-                                            <b>Ik lust heel graag:</b> Stoemp me worst<br>
-                                            <b>Ik lust helemaal geen:</b> Ik lust alles<br>
-                                            <b>Lievelingsdier:</b> Steenuilke<br>
-                                            <b>Als ik een gave kon kiezen, koos ik voor:</b> Boefen zonder dik te worden<br>
-                                            <b>Favoriete jeugdserie:</b> Pokémon<br>
-                                            <b>Mijn grootste held:</b> Ash ketchum</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
-                                        </div>
+                                            </div>
+                                            <div class="modal-body text-left">
+
+                                                <div class="text-center">
+                                                    <img class="rounded img-fluid" src="images/matthias.jpg" width="300">
+                                                </div>
+                                                <hr>
+                                                <p><b>Naam:</b> Matthias Peeters<br>
+                                                    <b>Leeftijd:</b> 18 jaar<br>
+                                                    <b>Studies:</b> Moderne Talen-wetenschappen<br>
+                                                    <b>Aantal jaar leiding:</b> 1<br>
+                                                    <b>Functie binnen de KSA:</b> Oversteekman<br>
+                                                    <b>Hobbies:</b> KSA, tennis en uitgaan<br>
+                                                    <b>Ik lust heel graag:</b> Stoemp me worst<br>
+                                                    <b>Ik lust helemaal geen:</b> Ik lust alles<br>
+                                                    <b>Lievelingsdier:</b> Steenuilke<br>
+                                                    <b>Als ik een gave kon kiezen, koos ik voor:</b> Boefen zonder dik te worden<br>
+                                                    <b>Favoriete jeugdserie:</b> Pokémon<br>
+                                                    <b>Mijn grootste held:</b> Ash ketchum</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -351,7 +446,7 @@
                 </div>
                 <br>
                 <br>
-                
+
                 <h3 class="text-center">Leeuwkes</h3>
                 <hr>
                 <div class="row">
@@ -363,45 +458,45 @@
                                 <p class="lead">Schakelman</p>
                                 <hr>
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#BramModal">Meer info</button>
-                                
+
                                 <div class="modal fade" id="BramModal" tabindex="-1" role="dialog" aria-labelledby="BramModalLabel" aria-hidden="true">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="BramModalLabel">Wie is Bram?</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="BramModalLabel">Wie is Bram?</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                             </button>
-                                        </div>
-                                        <div class="modal-body text-left">
-                                            
-                                            <div class="text-center">
-                                                <img class="rounded img-fluid" src="images/bram.jpg" width="300">
                                             </div>
-                                            <hr>
-                                            <p><b>Naam:</b> Bram Van der Taelen<br>
-                                            <b>Leeftijd:</b> 19 jaar<br>
-                                            <b>Studies:</b> Toegepaste Informatica<br>
-                                            <b>Aantal jaar leiding:</b> 3<br>
-                                            <b>Functie binnen de KSA:</b> Schakelman<br>
-                                            <b>Hobbies:</b> KSA, gamen, wiezen en manillenn<br>
-                                            <b>Ik lust heel graag:</b> Appelmoes met frietjes gebakken is ossevet<br>
-                                            <b>Ik lust helemaal geen:</b> Frietjes gebakken in normale olie<br>
-                                            <b>Lievelingsdier:</b> Ringstaartmaki<br>
-                                            <b>Als ik een gave kon kiezen, koos ik voor:</b> Transformeren in een ringstaartmaki<br>
-                                            <b>Favoriete jeugdserie:</b> Spring<br>
-                                            <b>Mijn grootste held:</b> Mijn goede vriend Bono van U2</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
-                                        </div>
+                                            <div class="modal-body text-left">
+
+                                                <div class="text-center">
+                                                    <img class="rounded img-fluid" src="images/bram.jpg" width="300">
+                                                </div>
+                                                <hr>
+                                                <p><b>Naam:</b> Bram Van der Taelen<br>
+                                                    <b>Leeftijd:</b> 19 jaar<br>
+                                                    <b>Studies:</b> Toegepaste Informatica<br>
+                                                    <b>Aantal jaar leiding:</b> 3<br>
+                                                    <b>Functie binnen de KSA:</b> Schakelman<br>
+                                                    <b>Hobbies:</b> KSA, gamen, wiezen en manillenn<br>
+                                                    <b>Ik lust heel graag:</b> Appelmoes met frietjes gebakken is ossevet<br>
+                                                    <b>Ik lust helemaal geen:</b> Frietjes gebakken in normale olie<br>
+                                                    <b>Lievelingsdier:</b> Ringstaartmaki<br>
+                                                    <b>Als ik een gave kon kiezen, koos ik voor:</b> Transformeren in een ringstaartmaki<br>
+                                                    <b>Favoriete jeugdserie:</b> Spring<br>
+                                                    <b>Mijn grootste held:</b> Mijn goede vriend Bono van U2</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col-md-3 d-flex justify-content-center text-center">
                         <div class="card bg-warning" style="width: 18rem;">
                             <img class="card-img-top" src="images/stijn.jpg" alt="Card image cap">
@@ -410,45 +505,45 @@
                                 <p class="lead">Verslagman & uniformman</p>
                                 <hr>
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#StijnModal">Meer info</button>
-                                
+
                                 <div class="modal fade" id="StijnModal" tabindex="-1" role="dialog" aria-labelledby="StijnModalLabel" aria-hidden="true">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="StijnModalLabel">Wie is Stijn?</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="StijnModalLabel">Wie is Stijn?</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                             </button>
-                                        </div>
-                                        <div class="modal-body text-left">
-                                            
-                                            <div class="text-center">
-                                                <img class="rounded img-fluid" src="images/stijn.jpg" width="300">
                                             </div>
-                                            <hr>
-                                            <p><b>Naam:</b> Stijn Van Oudenhove<br>
-                                            <b>Leeftijd:</b> 19 jaar<br>
-                                            <b>Studies:</b> Revalidatiewetenschappen en kinesitherapie<br>
-                                            <b>Aantal jaar leiding:</b> 3<br>
-                                            <b>Functie binnen de KSA:</b> Verslagman & uniformman (aka fashionpolice)<br>
-                                            <b>Hobbies:</b> KSA, zwemmen, nekeer passeren in the gym en koers kijken<br>
-                                            <b>Ik lust heel graag:</b> De Italiaanse keuken<br>
-                                            <b>Ik lust helemaal geen:</b> Komkommers tussen een broodje<br>
-                                            <b>Lievelingsdier:</b> De 'Chelonia Mydas' ook wel de soepschildpad of groene zeeschildpad genoemd<br>
-                                            <b>Als ik een gave kon kiezen, koos ik voor:</b> Onzichtbaarheid<br>
-                                            <b>Favoriete jeugdserie:</b> W817<br>
-                                            <b>Mijn grootste held:</b> Socrates</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
-                                        </div>
+                                            <div class="modal-body text-left">
+
+                                                <div class="text-center">
+                                                    <img class="rounded img-fluid" src="images/stijn.jpg" width="300">
+                                                </div>
+                                                <hr>
+                                                <p><b>Naam:</b> Stijn Van Oudenhove<br>
+                                                    <b>Leeftijd:</b> 19 jaar<br>
+                                                    <b>Studies:</b> Revalidatiewetenschappen en kinesitherapie<br>
+                                                    <b>Aantal jaar leiding:</b> 3<br>
+                                                    <b>Functie binnen de KSA:</b> Verslagman & uniformman (aka fashionpolice)<br>
+                                                    <b>Hobbies:</b> KSA, zwemmen, nekeer passeren in the gym en koers kijken<br>
+                                                    <b>Ik lust heel graag:</b> De Italiaanse keuken<br>
+                                                    <b>Ik lust helemaal geen:</b> Komkommers tussen een broodje<br>
+                                                    <b>Lievelingsdier:</b> De 'Chelonia Mydas' ook wel de soepschildpad of groene zeeschildpad genoemd<br>
+                                                    <b>Als ik een gave kon kiezen, koos ik voor:</b> Onzichtbaarheid<br>
+                                                    <b>Favoriete jeugdserie:</b> W817<br>
+                                                    <b>Mijn grootste held:</b> Socrates</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col-md-3 d-flex justify-content-center text-center">
                         <div class="card bg-warning" style="width: 18rem;">
                             <img class="card-img-top" src="images/janne.jpg" alt="Card image cap">
@@ -457,45 +552,45 @@
                                 <p class="lead">Ledenverzekering</p>
                                 <hr>
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#JanneModal">Meer info</button>
-                                
+
                                 <div class="modal fade" id="JanneModal" tabindex="-1" role="dialog" aria-labelledby="JanneModalLabel" aria-hidden="true">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="JanneModalLabel">Wie is Janne?</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="JanneModalLabel">Wie is Janne?</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                             </button>
-                                        </div>
-                                        <div class="modal-body text-left">
-                                            
-                                            <div class="text-center">
-                                                <img class="rounded img-fluid" src="images/janne.jpg" width="300">
                                             </div>
-                                            <hr>
-                                            <p><b>Naam:</b> Janne Billiau<br>
-                                            <b>Leeftijd:</b> 17 jaar<br>
-                                            <b>Studies:</b> Wetenschappen-wiskunde<br>
-                                            <b>Aantal jaar leiding:</b> 1<br>
-                                            <b>Functie binnen de KSA:</b> Ledenverzekering<br>
-                                            <b>Hobbies:</b> KSA en series kijken op netflix<br>
-                                            <b>Ik lust heel graag:</b> Pizza<br>
-                                            <b>Ik lust helemaal geen:</b> Witloof<br>
-                                            <b>Lievelingsdier:</b> Leeuw<br>
-                                            <b>Als ik een gave kon kiezen, koos ik voor:</b> Onzichtbaarheid<br>
-                                            <b>Favoriete jeugdserie:</b> F.C De Kampioenen<br>
-                                            <b>Mijn grootste held:</b> Arne Van der Vreken</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
-                                        </div>
+                                            <div class="modal-body text-left">
+
+                                                <div class="text-center">
+                                                    <img class="rounded img-fluid" src="images/janne.jpg" width="300">
+                                                </div>
+                                                <hr>
+                                                <p><b>Naam:</b> Janne Billiau<br>
+                                                    <b>Leeftijd:</b> 17 jaar<br>
+                                                    <b>Studies:</b> Wetenschappen-wiskunde<br>
+                                                    <b>Aantal jaar leiding:</b> 1<br>
+                                                    <b>Functie binnen de KSA:</b> Ledenverzekering<br>
+                                                    <b>Hobbies:</b> KSA en series kijken op netflix<br>
+                                                    <b>Ik lust heel graag:</b> Pizza<br>
+                                                    <b>Ik lust helemaal geen:</b> Witloof<br>
+                                                    <b>Lievelingsdier:</b> Leeuw<br>
+                                                    <b>Als ik een gave kon kiezen, koos ik voor:</b> Onzichtbaarheid<br>
+                                                    <b>Favoriete jeugdserie:</b> F.C De Kampioenen<br>
+                                                    <b>Mijn grootste held:</b> Arne Van der Vreken</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col-md-3 d-flex justify-content-center text-center">
                         <div class="card bg-warning" style="width: 18rem;">
                             <img class="card-img-top" src="images/stef.jpg" alt="Card image cap">
@@ -504,38 +599,38 @@
                                 <p class="lead">Oversteekman</p>
                                 <hr>
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#StefModal">Meer info</button>
-                                
+
                                 <div class="modal fade" id="StefModal" tabindex="-1" role="dialog" aria-labelledby="StefModalLabel" aria-hidden="true">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="StefModalLabel">Wie is Stef?</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="StefModalLabel">Wie is Stef?</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                             </button>
-                                        </div>
-                                        <div class="modal-body text-left">
-                                            
-                                            <div class="text-center">
-                                                <img class="rounded img-fluid" src="images/stef.jpg" width="300">
                                             </div>
-                                            <hr>
-                                            <p><b>Naam:</b> Stef Van den Haute<br>
-                                            <b>Leeftijd:</b> 17 jaar<br>
-                                            <b>Studies:</b> Wetenschappen-wiskunde<br>
-                                            <b>Aantal jaar leiding:</b> 1<br>
-                                            <b>Functie binnen de KSA:</b> Oversteekman<br>
-                                            <b>Hobbies:</b> KSA, gamen en binge watchen<br>
-                                            <b>Ik lust heel graag:</b> Lasagne<br>
-                                            <b>Ik lust helemaal geen:</b> Ik lust alles<br>
-                                            <b>Lievelingsdier:</b> Limousin<br>
-                                            <b>Als ik een gave kon kiezen, koos ik voor:</b> Telekinese<br>
-                                            <b>Favoriete jeugdserie:</b> Transformers<br>
-                                            <b>Mijn grootste held:</b> Mijn pantoffels #Pantuflum</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
-                                        </div>
+                                            <div class="modal-body text-left">
+
+                                                <div class="text-center">
+                                                    <img class="rounded img-fluid" src="images/stef.jpg" width="300">
+                                                </div>
+                                                <hr>
+                                                <p><b>Naam:</b> Stef Van den Haute<br>
+                                                    <b>Leeftijd:</b> 17 jaar<br>
+                                                    <b>Studies:</b> Wetenschappen-wiskunde<br>
+                                                    <b>Aantal jaar leiding:</b> 1<br>
+                                                    <b>Functie binnen de KSA:</b> Oversteekman<br>
+                                                    <b>Hobbies:</b> KSA, gamen en binge watchen<br>
+                                                    <b>Ik lust heel graag:</b> Lasagne<br>
+                                                    <b>Ik lust helemaal geen:</b> Ik lust alles<br>
+                                                    <b>Lievelingsdier:</b> Limousin<br>
+                                                    <b>Als ik een gave kon kiezen, koos ik voor:</b> Telekinese<br>
+                                                    <b>Favoriete jeugdserie:</b> Transformers<br>
+                                                    <b>Mijn grootste held:</b> Mijn pantoffels #Pantuflum</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -545,7 +640,7 @@
                 </div>
                 <br>
                 <br>
-                
+
                 <h3 class="text-center">Jongknapen</h3>
                 <hr>
                 <div class="row">
@@ -557,45 +652,45 @@
                                 <p class="lead">Penningmeester</p>
                                 <hr>
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#MatthijsModal">Meer info</button>
-                                
+
                                 <div class="modal fade" id="MatthijsModal" tabindex="-1" role="dialog" aria-labelledby="MatthijsModalLabel" aria-hidden="true">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="MatthijsModalLabel">Wie is Matthijs?</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="MatthijsModalLabel">Wie is Matthijs?</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                             </button>
-                                        </div>
-                                        <div class="modal-body text-left">
-                                            
-                                            <div class="text-center">
-                                                <img class="rounded img-fluid" src="images/matthijs.jpg" width="300">
                                             </div>
-                                            <hr>
-                                            <p><b>Naam:</b> Matthijs Neven<br>
-                                            <b>Leeftijd:</b> 19 jaar<br>
-                                            <b>Studies:</b> Wetenschappen-wiskunde<br>
-                                            <b>Aantal jaar leiding:</b> 3<br>
-                                            <b>Functie binnen de KSA:</b> De man van alle sengen #penningmeester<br>
-                                            <b>Hobbies:</b> Lopen en dagelijks de bloemekes eens buiten zetten<br>
-                                            <b>Ik lust heel graag:</b> Alles dat klaargemaakt wordt door de kookies op kamp<br>
-                                            <b>Ik lust helemaal geen:</b> Alles dat niet klaargemaakt wordt door de kookies op kamp<br>
-                                            <b>Lievelingsdier:</b> Schildpad, omdat zijn en mijn ritme zeer goed overeenkomen<br>
-                                            <b>Als ik een gave kon kiezen, koos ik voor:</b> In de toekomst kijken, zodat ik weet welke richting ik volgend jaar moet kiezen<br>
-                                            <b>Favoriete jeugdserie:</b> W817<br>
-                                            <b>Mijn grootste held:</b> Leider Arne</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
-                                        </div>
+                                            <div class="modal-body text-left">
+
+                                                <div class="text-center">
+                                                    <img class="rounded img-fluid" src="images/matthijs.jpg" width="300">
+                                                </div>
+                                                <hr>
+                                                <p><b>Naam:</b> Matthijs Neven<br>
+                                                    <b>Leeftijd:</b> 19 jaar<br>
+                                                    <b>Studies:</b> Wetenschappen-wiskunde<br>
+                                                    <b>Aantal jaar leiding:</b> 3<br>
+                                                    <b>Functie binnen de KSA:</b> De man van alle sengen #penningmeester<br>
+                                                    <b>Hobbies:</b> Lopen en dagelijks de bloemekes eens buiten zetten<br>
+                                                    <b>Ik lust heel graag:</b> Alles dat klaargemaakt wordt door de kookies op kamp<br>
+                                                    <b>Ik lust helemaal geen:</b> Alles dat niet klaargemaakt wordt door de kookies op kamp<br>
+                                                    <b>Lievelingsdier:</b> Schildpad, omdat zijn en mijn ritme zeer goed overeenkomen<br>
+                                                    <b>Als ik een gave kon kiezen, koos ik voor:</b> In de toekomst kijken, zodat ik weet welke richting ik volgend jaar moet kiezen<br>
+                                                    <b>Favoriete jeugdserie:</b> W817<br>
+                                                    <b>Mijn grootste held:</b> Leider Arne</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col-md-3 d-flex justify-content-center text-center">
                         <div class="card bg-warning" style="width: 18rem;">
                             <img class="card-img-top" src="images/sammy.jpg" alt="Card image cap">
@@ -604,45 +699,45 @@
                                 <p class="lead">Materiaalman & schakelredacteur</p>
                                 <hr>
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#SammyModal">Meer info</button>
-                                
+
                                 <div class="modal fade" id="SammyModal" tabindex="-1" role="dialog" aria-labelledby="SammyModalLabel" aria-hidden="true">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="SammyModalLabel">Wie is Sammy?</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="SammyModalLabel">Wie is Sammy?</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                             </button>
-                                        </div>
-                                        <div class="modal-body text-left">
-                                            
-                                            <div class="text-center">
-                                                <img class="rounded img-fluid" src="images/sammy.jpg" width="300">
                                             </div>
-                                            <hr>
-                                            <p><b>Naam:</b> Sammy Masschelein<br>
-                                            <b>Leeftijd:</b> 19 jaar<br>
-                                            <b>Studies:</b> Overpoortstudies<br>
-                                            <b>Aantal jaar leiding:</b> 3<br>
-                                            <b>Functie binnen de KSA:</b> Materiaalman & schakelredacteur<br>
-                                            <b>Hobbies:</b> KSA, piano, slapen, Bono pesten<br>
-                                            <b>Ik lust heel graag:</b> Quiche met geitenkaas<br>
-                                            <b>Ik lust helemaal geen:</b> Rijst<br>
-                                            <b>Lievelingsdier:</b> Een poesje<br>
-                                            <b>Als ik een gave kon kiezen, koos ik voor:</b> Even harde protjes als Hannes kunnen laten<br>
-                                            <b>Favoriete jeugdserie:</b> Spring (duh?)<br>
-                                            <b>Mijn grootste held:</b> Ons Carine #wouldbeproud</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
-                                        </div>
+                                            <div class="modal-body text-left">
+
+                                                <div class="text-center">
+                                                    <img class="rounded img-fluid" src="images/sammy.jpg" width="300">
+                                                </div>
+                                                <hr>
+                                                <p><b>Naam:</b> Sammy Masschelein<br>
+                                                    <b>Leeftijd:</b> 19 jaar<br>
+                                                    <b>Studies:</b> Overpoortstudies<br>
+                                                    <b>Aantal jaar leiding:</b> 3<br>
+                                                    <b>Functie binnen de KSA:</b> Materiaalman & schakelredacteur<br>
+                                                    <b>Hobbies:</b> KSA, piano, slapen, Bono pesten<br>
+                                                    <b>Ik lust heel graag:</b> Quiche met geitenkaas<br>
+                                                    <b>Ik lust helemaal geen:</b> Rijst<br>
+                                                    <b>Lievelingsdier:</b> Een poesje<br>
+                                                    <b>Als ik een gave kon kiezen, koos ik voor:</b> Even harde protjes als Hannes kunnen laten<br>
+                                                    <b>Favoriete jeugdserie:</b> Spring (duh?)<br>
+                                                    <b>Mijn grootste held:</b> Ons Carine #wouldbeproud</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col-md-3 d-flex justify-content-center text-center">
                         <div class="card bg-warning" style="width: 18rem;">
                             <img class="card-img-top" src="images/emiel.jpg" alt="Card image cap">
@@ -651,45 +746,45 @@
                                 <p class="lead">Schakelredacteur</p>
                                 <hr>
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#EmielModal">Meer info</button>
-                                
+
                                 <div class="modal fade" id="EmielModal" tabindex="-1" role="dialog" aria-labelledby="EmielModalLabel" aria-hidden="true">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="EmielModalLabel">Wie is Emiel?</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="EmielModalLabel">Wie is Emiel?</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                             </button>
-                                        </div>
-                                        <div class="modal-body text-left">
-                                            
-                                            <div class="text-center">
-                                                <img class="rounded img-fluid" src="images/emiel.jpg" width="300">
                                             </div>
-                                            <hr>
-                                            <p><b>Naam:</b> Emiel Van Belle<br>
-                                            <b>Leeftijd:</b> 17 jaar<br>
-                                            <b>Studies:</b> Moderne Talen-wetenschappen<br>
-                                            <b>Aantal jaar leiding:</b> 1<br>
-                                            <b>Functie binnen de KSA:</b> Schakelredacteur<br>
-                                            <b>Hobbies:</b> KSA, op de computer tokkelen en véél eten<br>
-                                            <b>Ik lust heel graag:</b> Ovenschotels van de mama<br>
-                                            <b>Ik lust helemaal geen:</b> Tomaten<br>
-                                            <b>Lievelingsdier:</b> Een schoon wit poezeken<br>
-                                            <b>Als ik een gave kon kiezen, koos ik voor:</b> Tijdreizen<br>
-                                            <b>Favoriete jeugdserie:</b> Samson en Gert (Nu nog steeds trouwens)<br>
-                                            <b>Mijn grootste held:</b> Mijne papa</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
-                                        </div>
+                                            <div class="modal-body text-left">
+
+                                                <div class="text-center">
+                                                    <img class="rounded img-fluid" src="images/emiel.jpg" width="300">
+                                                </div>
+                                                <hr>
+                                                <p><b>Naam:</b> Emiel Van Belle<br>
+                                                    <b>Leeftijd:</b> 17 jaar<br>
+                                                    <b>Studies:</b> Moderne Talen-wetenschappen<br>
+                                                    <b>Aantal jaar leiding:</b> 1<br>
+                                                    <b>Functie binnen de KSA:</b> Schakelredacteur<br>
+                                                    <b>Hobbies:</b> KSA, op de computer tokkelen en véél eten<br>
+                                                    <b>Ik lust heel graag:</b> Ovenschotels van de mama<br>
+                                                    <b>Ik lust helemaal geen:</b> Tomaten<br>
+                                                    <b>Lievelingsdier:</b> Een schoon wit poezeken<br>
+                                                    <b>Als ik een gave kon kiezen, koos ik voor:</b> Tijdreizen<br>
+                                                    <b>Favoriete jeugdserie:</b> Samson en Gert (Nu nog steeds trouwens)<br>
+                                                    <b>Mijn grootste held:</b> Mijne papa</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col-md-3 d-flex justify-content-center text-center">
                         <div class="card bg-warning" style="width: 18rem;">
                             <img class="card-img-top" src="images/jens.jpg" alt="Card image cap">
@@ -698,38 +793,38 @@
                                 <p class="lead">Oversteekman</p>
                                 <hr>
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#JensModal">Meer info</button>
-                                
+
                                 <div class="modal fade" id="JensModal" tabindex="-1" role="dialog" aria-labelledby="JensModalLabel" aria-hidden="true">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="JensModalLabel">Wie is Jens?</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="JensModalLabel">Wie is Jens?</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                             </button>
-                                        </div>
-                                        <div class="modal-body text-left">
-                                            
-                                            <div class="text-center">
-                                                <img class="rounded img-fluid" src="images/jens.jpg" width="300">
                                             </div>
-                                            <hr>
-                                            <p><b>Naam:</b> Jens Remue<br>
-                                            <b>Leeftijd:</b> 17 jaar<br>
-                                            <b>Studies:</b> Kantooradministratie en gegevensbeheer (aka kantoor)<br>
-                                            <b>Aantal jaar leiding:</b> 1<br>
-                                            <b>Functie binnen de KSA:</b> Oversteekman<br>
-                                            <b>Hobbies:</b> KSA, slapen en naar de voetbal zien<br>
-                                            <b>Ik lust heel graag:</b> Nummer 14 bij de chinees<br>
-                                            <b>Ik lust helemaal geen:</b> Spruiten<br>
-                                            <b>Lievelingsdier:</b> De aap van Dora<br>
-                                            <b>Als ik een gave kon kiezen, koos ik voor:</b> Toekomst voorspellen<br>
-                                            <b>Favoriete jeugdserie:</b> Bob de Bouwer<br>
-                                            <b>Mijn grootste held:</b> Alex Morgan</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
-                                        </div>
+                                            <div class="modal-body text-left">
+
+                                                <div class="text-center">
+                                                    <img class="rounded img-fluid" src="images/jens.jpg" width="300">
+                                                </div>
+                                                <hr>
+                                                <p><b>Naam:</b> Jens Remue<br>
+                                                    <b>Leeftijd:</b> 17 jaar<br>
+                                                    <b>Studies:</b> Kantooradministratie en gegevensbeheer (aka kantoor)<br>
+                                                    <b>Aantal jaar leiding:</b> 1<br>
+                                                    <b>Functie binnen de KSA:</b> Oversteekman<br>
+                                                    <b>Hobbies:</b> KSA, slapen en naar de voetbal zien<br>
+                                                    <b>Ik lust heel graag:</b> Nummer 14 bij de chinees<br>
+                                                    <b>Ik lust helemaal geen:</b> Spruiten<br>
+                                                    <b>Lievelingsdier:</b> De aap van Dora<br>
+                                                    <b>Als ik een gave kon kiezen, koos ik voor:</b> Toekomst voorspellen<br>
+                                                    <b>Favoriete jeugdserie:</b> Bob de Bouwer<br>
+                                                    <b>Mijn grootste held:</b> Alex Morgan</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -739,7 +834,7 @@
                 </div>
                 <br>
                 <br>
-                
+
                 <h3 class="text-center">Knapen</h3>
                 <hr>
                 <div class="row">
@@ -750,46 +845,46 @@
                                 <h5 class="card-title">Bono De Geest</h5>
                                 <p class="lead">Bondsleider</p>
                                 <hr>
-                               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#BonoModal">Meer info</button>
-                                
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#BonoModal">Meer info</button>
+
                                 <div class="modal fade" id="BonoModal" tabindex="-1" role="dialog" aria-labelledby="BonoModalLabel" aria-hidden="true">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="BonoModalLabel">Wie is Bono?</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="BonoModalLabel">Wie is Bono?</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                             </button>
-                                        </div>
-                                        <div class="modal-body text-left">
-                                            
-                                            <div class="text-center">
-                                                <img class="rounded img-fluid" src="images/bono.jpg" width="300">
                                             </div>
-                                            <hr>
-                                            <p><b>Naam:</b> Bono De Geest<br>
-                                            <b>Leeftijd:</b> 19 jaar<br>
-                                            <b>Studies:</b> Industrieel ingenieur: Industrieel ontwerpen<br>
-                                            <b>Aantal jaar leiding:</b> 3<br>
-                                            <b>Functie binnen de KSA:</b> Bondsleider<br>
-                                            <b>Hobbies:</b> KSA, karate, giejtaer en professioneel kaartje leggen<br>
-                                            <b>Ik lust heel graag:</b> Koude appelmoes met brokken<br>
-                                            <b>Ik lust helemaal geen:</b> Spruiten<br>
-                                            <b>Lievelingsdier:</b> Hannes<br>
-                                            <b>Als ik een gave kon kiezen, koos ik voor:</b> Teleproteren<br>
-                                            <b>Favoriete jeugdserie:</b> Rocket Power<br>
-                                            <b>Mijn grootste held:</b> Glenda</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
-                                        </div>
+                                            <div class="modal-body text-left">
+
+                                                <div class="text-center">
+                                                    <img class="rounded img-fluid" src="images/bono.jpg" width="300">
+                                                </div>
+                                                <hr>
+                                                <p><b>Naam:</b> Bono De Geest<br>
+                                                    <b>Leeftijd:</b> 19 jaar<br>
+                                                    <b>Studies:</b> Industrieel ingenieur: Industrieel ontwerpen<br>
+                                                    <b>Aantal jaar leiding:</b> 3<br>
+                                                    <b>Functie binnen de KSA:</b> Bondsleider<br>
+                                                    <b>Hobbies:</b> KSA, karate, giejtaer en professioneel kaartje leggen<br>
+                                                    <b>Ik lust heel graag:</b> Koude appelmoes met brokken<br>
+                                                    <b>Ik lust helemaal geen:</b> Spruiten<br>
+                                                    <b>Lievelingsdier:</b> Hannes<br>
+                                                    <b>Als ik een gave kon kiezen, koos ik voor:</b> Teleproteren<br>
+                                                    <b>Favoriete jeugdserie:</b> Rocket Power<br>
+                                                    <b>Mijn grootste held:</b> Glenda</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col-md-4 d-flex justify-content-center text-center">
                         <div class="card bg-warning" style="width: 18rem;">
                             <img class="card-img-top" src="images/pieter.jpg" alt="Card image cap">
@@ -798,45 +893,45 @@
                                 <p class="lead">Bondsleider, siteman & jeugdraadman</p>
                                 <hr>
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#PieterModal">Meer info</button>
-                                
+
                                 <div class="modal fade" id="PieterModal" tabindex="-1" role="dialog" aria-labelledby="PieterModalLabel" aria-hidden="true">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="PieterModalLabel">Wie is Pieter?</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="PieterModalLabel">Wie is Pieter?</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                             </button>
-                                        </div>
-                                        <div class="modal-body text-left">
-                                            
-                                            <div class="text-center">
-                                                <img class="rounded img-fluid" src="images/pieter.jpg" width="300">
                                             </div>
-                                            <hr>
-                                            <p><b>Naam:</b> Pieter Samoy<br>
-                                            <b>Leeftijd:</b> 21 jaar<br>
-                                            <b>Studies:</b> Toegepasta Informatica - IT consultant<br>
-                                            <b>Aantal jaar leiding:</b> 5<br>
-                                            <b>Functie binnen de KSA:</b> Bondsleider, siteman en dan nog jeugdraadman<br>
-                                            <b>Hobbies:</b> KSA, doen alsof ik programmeer en gamen<br>
-                                            <b>Ik lust heel graag:</b> Rode, lelijke, slechte tomaten<br>
-                                            <b>Ik lust helemaal geen:</b> Spruiten<br>
-                                            <b>Lievelingsdier:</b> Mijn hondje Odin<br>
-                                            <b>Als ik een gave kon kiezen, koos ik voor:</b> Sneller dan het licht lopen. Dan kan ik de dodentocht uitlopen en moet ik niet stappen<br>
-                                            <b>Favoriete jeugdserie:</b> Spongebob natuurlijk<br>
-                                            <b>Mijn grootste held:</b> Ik heb geen helden :(</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
-                                        </div>
+                                            <div class="modal-body text-left">
+
+                                                <div class="text-center">
+                                                    <img class="rounded img-fluid" src="images/pieter.jpg" width="300">
+                                                </div>
+                                                <hr>
+                                                <p><b>Naam:</b> Pieter Samoy<br>
+                                                    <b>Leeftijd:</b> 21 jaar<br>
+                                                    <b>Studies:</b> Toegepaste Informatica - IT consultant<br>
+                                                    <b>Aantal jaar leiding:</b> 5<br>
+                                                    <b>Functie binnen de KSA:</b> Bondsleider, siteman en dan nog jeugdraadman<br>
+                                                    <b>Hobbies:</b> KSA, doen alsof ik programmeer en gamen<br>
+                                                    <b>Ik lust heel graag:</b> Rode, lelijke, slechte tomaten<br>
+                                                    <b>Ik lust helemaal geen:</b> Spruiten<br>
+                                                    <b>Lievelingsdier:</b> Mijn hondje Odin<br>
+                                                    <b>Als ik een gave kon kiezen, koos ik voor:</b> Sneller dan het licht lopen. Dan kan ik de dodentocht uitlopen en moet ik niet stappen<br>
+                                                    <b>Favoriete jeugdserie:</b> Spongebob natuurlijk<br>
+                                                    <b>Mijn grootste held:</b> Ik heb geen helden :(</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col-md-4 d-flex justify-content-center text-center">
                         <div class="card bg-warning" style="width: 18rem;">
                             <img class="card-img-top" src="images/jarne.jpg" alt="Card image cap">
@@ -844,39 +939,39 @@
                                 <h5 class="card-title">Jarne Van de Velde</h5>
                                 <p class="lead">Designman</p>
                                 <hr>
-                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#JarneModal">Meer info</button>
-                                
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#JarneModal">Meer info</button>
+
                                 <div class="modal fade" id="JarneModal" tabindex="-1" role="dialog" aria-labelledby="JarneModalLabel" aria-hidden="true">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="JarneModalLabel">Wie is Jarne?</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="JarneModalLabel">Wie is Jarne?</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                             </button>
-                                        </div>
-                                        <div class="modal-body text-left">
-                                            
-                                            <div class="text-center">
-                                                <img class="rounded img-fluid" src="images/jarne.jpg" width="300">
                                             </div>
-                                            <hr>
-                                            <p><b>Naam:</b> Jarne Van de Velde<br>
-                                            <b>Leeftijd:</b> 19 jaar<br>
-                                            <b>Studies:</b> Multimedia productie<br>
-                                            <b>Aantal jaar leiding:</b> 3<br>
-                                            <b>Functie binnen de KSA:</b> Designer<br>
-                                            <b>Hobbies:</b> KSA, computeren, skanken<br>
-                                            <b>Ik lust heel graag:</b> Nen trog van bij Marco<br>
-                                            <b>Ik lust helemaal geen:</b> Brok gekapt<br>
-                                            <b>Lievelingsdier:</b> Bok<br>
-                                            <b>Als ik een gave kon kiezen, koos ik voor:</b> Als als als, zwijgen Lesly<br>
-                                            <b>Favoriete jeugdserie:</b> Pokémon<br>
-                                            <b>Mijn grootste held:</b> Stentjeuu (hoe hoe hoe)</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
-                                        </div>
+                                            <div class="modal-body text-left">
+
+                                                <div class="text-center">
+                                                    <img class="rounded img-fluid" src="images/jarne.jpg" width="300">
+                                                </div>
+                                                <hr>
+                                                <p><b>Naam:</b> Jarne Van de Velde<br>
+                                                    <b>Leeftijd:</b> 19 jaar<br>
+                                                    <b>Studies:</b> Multimedia productie<br>
+                                                    <b>Aantal jaar leiding:</b> 3<br>
+                                                    <b>Functie binnen de KSA:</b> Designer<br>
+                                                    <b>Hobbies:</b> KSA, computeren, skanken<br>
+                                                    <b>Ik lust heel graag:</b> Nen trog van bij Marco<br>
+                                                    <b>Ik lust helemaal geen:</b> Brok gekapt<br>
+                                                    <b>Lievelingsdier:</b> Bok<br>
+                                                    <b>Als ik een gave kon kiezen, koos ik voor:</b> Als als als, zwijgen Lesly<br>
+                                                    <b>Favoriete jeugdserie:</b> Pokémon<br>
+                                                    <b>Mijn grootste held:</b> Stentjeuu (hoe hoe hoe)</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -886,11 +981,11 @@
                 </div>
                 <br>
                 <br>
-                
-                <h3 class="text-center">Jonghernieuwers</h3>
+
+                <h3 class="text-center">Jonghernieuwers en hernieuwers</h3>
                 <hr>
                 <div class="row">
-                    <div class="col-md-12 d-flex justify-content-center text-center">
+                    <div class="col-md-6 d-flex justify-content-center text-center">
                         <div class="card bg-warning" style="width: 18rem;">
                             <img class="card-img-top" src="images/arnt.jpg" alt="Card image cap">
                             <div class="card-body">
@@ -898,52 +993,46 @@
                                 <p class="lead">Locatieman & proostman</p>
                                 <hr>
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ArntModal">Meer info</button>
-                                
+
                                 <div class="modal fade" id="ArntModal" tabindex="-1" role="dialog" aria-labelledby="ArntModalLabel" aria-hidden="true">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="ArntModalLabel">Wie is Arnt?</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="ArntModalLabel">Wie is Arnt?</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                             </button>
-                                        </div>
-                                        <div class="modal-body text-left">
-                                            
-                                            <div class="text-center">
-                                                <img class="rounded img-fluid" src="images/arnt.jpg" width="300">
                                             </div>
-                                            <hr>
-                                            <p><b>Naam:</b> Arnt De Durpel<br>
-                                            <b>Leeftijd:</b> 21 jaar<br>
-                                            <b>Studies:</b> Lerarenopleiding secundair onderwijs<br>
-                                            <b>Aantal jaar leiding:</b> 3<br>
-                                            <b>Functie binnen de KSA:</b> Locatieman en proostman<br>
-                                            <b>Hobbies:</b> KSA, gitaar<br>
-                                            <b>Ik lust heel graag:</b> De gewone kost<br>
-                                            <b>Ik lust helemaal geen:</b> Andijvie en witte kool<br>
-                                            <b>Lievelingsdier:</b> Zeearend<br>
-                                            <b>Als ik een gave kon kiezen, koos ik voor:</b> Teleporteren<br>
-                                            <b>Favoriete jeugdserie:</b> W817<br>
-                                            <b>Mijn grootste held:</b> Jean-Jacques Rousseau</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
-                                        </div>
+                                            <div class="modal-body text-left">
+
+                                                <div class="text-center">
+                                                    <img class="rounded img-fluid" src="images/arnt.jpg" width="300">
+                                                </div>
+                                                <hr>
+                                                <p><b>Naam:</b> Arnt De Durpel<br>
+                                                    <b>Leeftijd:</b> 21 jaar<br>
+                                                    <b>Studies:</b> Lerarenopleiding secundair onderwijs<br>
+                                                    <b>Aantal jaar leiding:</b> 3<br>
+                                                    <b>Functie binnen de KSA:</b> Locatieman en proostman<br>
+                                                    <b>Hobbies:</b> KSA, gitaar<br>
+                                                    <b>Ik lust heel graag:</b> De gewone kost<br>
+                                                    <b>Ik lust helemaal geen:</b> Andijvie en witte kool<br>
+                                                    <b>Lievelingsdier:</b> Zeearend<br>
+                                                    <b>Als ik een gave kon kiezen, koos ik voor:</b> Teleporteren<br>
+                                                    <b>Favoriete jeugdserie:</b> W817<br>
+                                                    <b>Mijn grootste held:</b> Jean-Jacques Rousseau</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <br>
-                <br>
-                
-                <h3 class="text-center">Hernieuwers</h3>
-                <hr>
-                <div class="row">
-                    <div class="col-md-12 d-flex justify-content-center text-center">
+
+                    <div class="col-md-6 d-flex justify-content-center text-center">
                         <div class="card bg-warning" style="width: 18rem;">
                             <img class="card-img-top" src="images/nick.jpg" alt="Card image cap">
                             <div class="card-body">
@@ -951,38 +1040,38 @@
                                 <p class="lead">Locatieman & jeugdraadman</p>
                                 <hr>
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#NickModal">Meer info</button>
-                                
+
                                 <div class="modal fade" id="NickModal" tabindex="-1" role="dialog" aria-labelledby="NickModalLabel" aria-hidden="true">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="NickModalLabel">Wie is Nick?</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body text-left">
-                                            
-                                            <div class="text-center">
-                                                <img class="rounded img-fluid" src="images/nick.jpg" width="300">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="NickModalLabel">Wie is Nick?</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                                </button>
                                             </div>
-                                            <hr>
-                                            <p><b>Naam:</b> Nick Van der Taelen<br>
-                                            <b>Leeftijd:</b> 21 jaar<br>
-                                            <b>Studies:</b> Hoogstwaarschijnlijk dierengeneeskunde. Maar dat kan weeral veranderen<br>
-                                            <b>Aantal jaar leiding:</b> 5<br>
-                                            <b>Functie binnen de KSA:</b> Locatieman & jeugdraadman<br>
-                                            <b>Hobbies:</b> KSA, paintball, wandelen met de hondjes en gitaren verzamelen (en soms eens spelen)<br>
-                                            <b>Ik lust heel graag:</b> Zalm met bearnaisesaus<br>
-                                            <b>Ik lust helemaal geen:</b> Andijf en witloof<br>
-                                            <b>Lievelingsdier:</b> Kodiakbeer<br>
-                                            <b>Als ik een gave kon kiezen, koos ik voor:</b> Tijdreizen<br>
-                                            <b>Favoriete jeugdserie:</b> Samurai Jack<br>
-                                            <b>Mijn grootste held:</b> Justin Lowe</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
-                                        </div>
+                                            <div class="modal-body text-left">
+
+                                                <div class="text-center">
+                                                    <img class="rounded img-fluid" src="images/nick.jpg" width="300">
+                                                </div>
+                                                <hr>
+                                                <p><b>Naam:</b> Nick Van der Taelen<br>
+                                                    <b>Leeftijd:</b> 21 jaar<br>
+                                                    <b>Studies:</b> Hoogstwaarschijnlijk dierengeneeskunde. Maar dat kan weeral veranderen<br>
+                                                    <b>Aantal jaar leiding:</b> 5<br>
+                                                    <b>Functie binnen de KSA:</b> Locatieman & jeugdraadman<br>
+                                                    <b>Hobbies:</b> KSA, paintball, wandelen met de hondjes en gitaren verzamelen (en soms eens spelen)<br>
+                                                    <b>Ik lust heel graag:</b> Zalm met bearnaisesaus<br>
+                                                    <b>Ik lust helemaal geen:</b> Andijf en witloof<br>
+                                                    <b>Lievelingsdier:</b> Kodiakbeer<br>
+                                                    <b>Als ik een gave kon kiezen, koos ik voor:</b> Tijdreizen<br>
+                                                    <b>Favoriete jeugdserie:</b> Samurai Jack<br>
+                                                    <b>Mijn grootste held:</b> Justin Lowe</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -990,17 +1079,19 @@
                         </div>
                     </div>
                 </div>
+                <br>
+                <br>
             </div>
-            
+
             <br>
             <br>
-            
+
         </main>
-    </div>
-    
-    
+    </section>
+
+
     <!--PROGRAMMA-->
-    <div class="bg-warning" id="programma">
+    <section class="bg-warning" id="programma">
         <main role="main" class="container">
             <div>
 
@@ -1010,21 +1101,21 @@
                 <h6 class="text-center">De Schakel</h6>
 
                 <hr>
-                
+
                 <p class="text-center">Kan je de schakel niet zien? Download hem <a href="media/schakel%202.pdf" download>hier</a>!</p>
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe src="media/schakel%202.pdf"></iframe>
                 </div>
                 <br>
                 <br>
-                
+
             </div>
         </main>
-    </div>
-    
-    
+    </section>
+
+
     <!--MEDIA-->
-    <div id="media">
+    <section id="media">
         <main role="main" class="container">
             <div>
 
@@ -1034,19 +1125,20 @@
                 <h6 class="text-center">Foto's en filmpjes</h6>
 
                 <hr>
+                <div class="alert alert-warning text-center" role="alert">
+                    <b>Let op!</b> Dit gedeelte is nog niet afgewerkt! Foto's en filmpjes kan je op dit moment terugvinden op onze <u><a href="https://www.facebook.com/KSASintBaafsNinove/" target="_blank">facebook-pagina</a></u>!
+                </div>
 
-                //to-do
-                
                 <br>
                 <br>
-            
+
             </div>
         </main>
-    </div>
+    </section>
 
 
-    <!--MEDIA-->
-    <div class="bg-warning" id="contact">
+    <!--CONTACT-->
+    <section class="bg-warning" id="contact">
         <main role="main" class="container">
             <div>
 
@@ -1056,15 +1148,41 @@
                 <h6 class="text-center">Contacteer ons!</h6>
 
                 <hr>
-                
-                //to-do
-                
+
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <p><small>Je kan de leiding contacteren door een mail te sturen e-mailadres <u>leiding@ksaninove.be</u> of het onderstaand contactformulier invullen</small></p>
+                        
+                        <form method="post" name="contact" action="contact.php">
+                            
+                            <div class="form-group">
+                                <label class="mb-0">Uw naam</label>
+                                <input name="naam" type="text" class="form-control" placeholder="Uw naam">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="mb-0">E-mail adres</label>
+                                <input name="email" type="text" class="form-control" placeholder="Uw e-mailadres">
+                            </div>
+                                
+                            <div class="form-group">
+                                <label class="mb-0">Uw bericht</label>
+                                <textarea name="bericht" class="form-control" rows="3"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Verstuur</button>
+                            
+                        </form>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
                 <br>
                 <br>
-            
+
             </div>
         </main>
-    </div>
+    </section>
 
 
 
